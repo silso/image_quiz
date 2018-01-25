@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Quiz</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        
+        <div id="top">
+            
+			<div id="files">
+                
+				<input type="file" accept=".txt" multiple onchange="readFiles(this.files);">
+				<button id="submitFiles" onclick="submitFiles();" class="myButton" disabled>Submit</button>
+                <a id="edit" href="editor.html" class="myButton">Edit</a>
+                <div id="slider-range"></div>
+                
+			</div>
+			
+			
+            <div id="main">
+                
+                <button onclick="menu();" class="myButton" title="Go back to main menu">⟨</button>
+                <form id="inputForm" action="javascript:void(0);">
+                    <input id="input" type="text" autocomplete="off">
+                </form>
+                <button onclick="submit();" class="myButton" title="Submit answer&#10;Enter">Submit</button>
+                <button onclick="answer();" class="myButton" title="Show correct answer&#10;]">Answer</button>
+                <button id="another" onclick="another();" class="myButton" title="Different image of same item&#10;[">New Image</button>
+				<button id="back" onclick="back();" class="myButton" disabled title="Go to previous image&#10;{">Back</button>
+                <button onclick="next();" class="myButton" title="Go to next image&#10;}">Next</button>
+                
+            </div>
+            
+            
+            <p id="response"></p>
+			
+        </div>
+        
+        
+        <div id="bottom">
+            
+            <div id="directory">
+            
+                <ul>
+                    <li></li>
+                </ul>
+            
+            </div>
+            
+            <div id="container">
+
+                <img id="img" src="https://media.giphy.com/media/wV2GhpHU1ZSMw/giphy.gif">
+                <img id="loading" src="loading.gif">
+
+            </div>
+            
+        </div>
+		
+    </body>
+</html>

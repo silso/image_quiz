@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Quiz Editor</title>
+        <link rel="stylesheet" type="text/css" href="editor.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="editor.js"></script>
+    </head>
+	
+    <body>
+		
+        <div id="top">
+			
+			<div id="files">
+				
+				<input type="file" accept=".txt" multiple onchange="readFiles(this.files);">
+				<button id="submit" onclick="submit();" disabled>Submit</button>
+				
+			</div>
+			
+			
+			<div id="editBar">
+				
+				<form action="javascript:void(0);" onsubmit="changeImgSize();">
+					<input id="imgSize" type="number" min="50" max="500" value="250" step="25" onclick="changeImgSize();">
+				</form>
+				<p id="item"></p>
+				<button id="back" onclick="back();" disabled>&lt;</button>
+				<form action="javascript:void(0);" onsubmit="goTo();">
+					<input id="goToNumber" type="number" min="0" onclick="$(this).select();">
+				</form>
+				<button id="next" onclick="next();">&gt;</button>
+				<button id="done" onclick="done();">Done</button>
+				
+			</div>
+			
+			
+			<p id="response"></p>
+			
+        </div>
+		
+		
+		<a id="fileDL" download="images" style="display: none;"></a>
+		
+		
+		<div id="bottom"></div>
+		
+    </body>
+</html>

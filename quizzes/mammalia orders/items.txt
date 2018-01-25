@@ -1,0 +1,3 @@
+[
+"Afrosoricida", "Artiodactyla", "Carnivora", "Cetacea", "Chiroptera", "Cingulata", "Dasyuromorphia", "Dermoptera", "Didelphimorphia", "Diprotodontia", "Erinaceomorpha", "Hyracoidea", "Lagomorpha", "Macroscelidea", "Microbiotheria", "Monotremata", "Notoryctemorphia", "Paucituberculata", "Peramelemorphia", "Perissodactyla", "Pholidota", "Pilosa", "Primates", "Proboscidea", "Rodentia", "Scandentia", "Sirenia", "Soricomorpha", "Tubulidentata"
+]

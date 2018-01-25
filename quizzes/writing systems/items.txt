@@ -1,0 +1,3 @@
+[
+    "Arabic", "Armenian", "Bengali", "Burmese", "Cherokee", "Chinese", "Cyrillic", "Devanagari", "Ge'ez", "Georgian", "Greek", "Gujarati", "Gurmukhi", "Hangul", "Hebrew", "Inuktitut", "Javanese", "Kana", "Kannada", "Khmer", "Lao", "Lontara", "Malayalam", "Mongolian", "Odia", "Sinhala", "Syriac", "Tamil", "Telugu", "Thaana", "Thai", "Tibetan", "Tifinagh"
+]

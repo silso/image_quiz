@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Quiz</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="top">
+            <div id="buttons">
+                <input type="file" id="files" accept=".txt" multiple onchange="readFiles(this.files);">
+                <form action="javascript:void(0);" id="inputForm" style="display: none">
+                    <input type="text" id="input" onkeypress="return searchKeyPress(event);" autocomplete="off">
+                </form>
+                <button class="myButton" class="quizButtons" id="submit" onclick="submit();" disabled>Submit</button>
+                <button class="myButton" class="quizButtons" id="answer" onclick="answer();" disabled>Answer</button>
+                <button class="myButton" class="quizButtons" id="newImage" onclick="newImage();" disabled>Another</button>
+                <button class="myButton" class="quizButtons" id="next" onclick="next();" disabled>Next</button>
+                <a class="myButton" id="edit" href="editor.html">Edit</a>
+            </div>
+            <p id="response"></p>
+        </div>
+        <div id="container">
+            <img id="img" src="https://media.giphy.com/media/wV2GhpHU1ZSMw/giphy.gif">
+            <img id="loading" src="loading.gif">
+            <textarea id="textArea" style="display: none"></textarea>
+        </div>
+    </body>
+</html>

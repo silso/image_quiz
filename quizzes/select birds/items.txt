@@ -1,0 +1,3 @@
+[
+    "Albatross", "Auk", "Bustard", "Cassowary", "Chickadee", "Crane", "Cuckoo", "Darter", "Emu", "Finch", "Grebe", "Grouse", "Heron", "Hoatzin", "Hoopoe", "Ibis", "Jay", "Kestrel", "Kingfisher", "Lark", "Loon", "Macaw", "Mesite", "Mourning dove", "Osprey", "Partridge", "Petrel", "Pheasant", "Quail", "Roadrunner", "Sandgrouse", "Sparrow", "Spoonbill", "Stork", "Swallow", "Swift", "Tern", "Thrush", "Tinamou", "Tropicbird", "Trumpeter", "Turaco", "Warbler", "Wren"
+]

@@ -1,0 +1,3 @@
+[
+"Atlanta", "Austin", "Baltimore", "Boston", "Charlotte", "Chicago", "Cincinnati", "Cleveland", "Columbus", "Denver", "Fort Worth", "Hartford", "Houston", "Jacksonville", "Jersey City", "Kansas City", "Las Vegas", "Los Angeles", "Louisville", "Miami Beach", "Miami", "Milwaukee", "Minneapolis", "Mobile", "New Orleans", "New York", "Oklahoma City", "Philadelphia", "Pittsburgh", "Portland", "Raleigh", "San Diego", "San Francisco", "Sandy Springs", "Seattle", "St. Louis", "Sunny Isles Beach", "Tampa", "Tulsa"
+]

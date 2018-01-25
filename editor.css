@@ -1,0 +1,35 @@
+#editBar {
+	display: inline-block;
+}
+#editBar * {
+	display: inline-block;
+}
+
+#imgSize {
+	width: 50px;
+}
+
+#item {
+	width: 238px;
+	height: 18px;
+}
+
+#goToNumber {
+	width: 50px;
+}
+
+
+#response {
+	display:inline;
+}
+
+
+
+
+
+img {
+	height: 250px;
+}
+.marked {
+	opacity: 0.30;
+}
